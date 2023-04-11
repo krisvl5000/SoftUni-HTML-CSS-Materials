@@ -5,3 +5,11 @@ For selecting by name we use .name, for id - #login.*/
 h1 {
     color: red;
 }
+
+/* When there is nothing after the section keyword, it means that
+the code below will apply to everything within the section. When there
+is a space and an additional selector (in this case h1), it will apply
+only to it. */
+section h1{
+    color:blueviolet
+}
