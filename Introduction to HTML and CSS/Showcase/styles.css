@@ -1,3 +1,7 @@
+/* This paints all h1 headers in the specified colour. 
+We can select elements by name (h1), class name (<p class = "name">Text<p/>,
+id (<span id = "login">Something</span>) and element with certain class.
+For selecting by name we use .name, for id - #login.*/
 h1 {
     color: red;
 }
