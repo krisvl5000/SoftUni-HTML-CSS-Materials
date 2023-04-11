@@ -27,7 +27,7 @@ wanto it to open in the same tab, simply do not write the attribute-->
     <!-- If you want to add a link that leads to a particular place
     within the page, write an href attribute  with a hashtag, followed by the
 name of the heading or text you want the libk to lead to-->
-    <a href="#About me">About me</a>
+    <a href="#This is a definition list.">This is a definition list.</a>
     
     <!-- The img tag is self-closing -->
     <!-- The alt attribute is shown when the picture cannot be 
@@ -43,18 +43,68 @@ name of the heading or text you want the libk to lead to-->
     <img src="https://w0.peakpx.com/wallpaper/205/72/HD-wallpaper-beautiful-scenery-scenery-reflection-lake-forest-hills-fall-colorful-rocks-austria-autumn-beautiful-mountain.jpg" 
     alt="Lake" width="300">
 
+    <br>
+    <Strong><h1>This is an ordered list.</h1></Strong>
     <!-- Using ordered list we can visualize elements of a list in 
     a psecified order, and by using the "type" attribute we can
     select how they are displayed => "I" is Roman Numerics, "A" is 
     alphabetical, "1" is Arabic and so on. -->
+
     <ol type="I">
-        <li>First</li>
         <li>
-            Second
+            <h3>First</h3>
         </li>
         <li>
-            <h2>Third</h2>
+            <h3>Second</h3>
         </li>
+        <li>
+            <h3>Third</h3>
+        </li>
+
+        <!-- It is also impprtant to note that if we want to write
+        something multiple times to avoid copying and pasting we can simple write 
+        the tag followed by "*" and a number -->
+
+        <br><br><br><br><br> <h1>There are five spaces above this text.</h1>
+
+        <br>
+
+        <Strong><h1>This is an unordered list.</h1></Strong>
+        <ul type="">
+            <h3>First</h3>
+        </ul>
+        <ul>
+            <h3>Second</h3>
+        </ul>
+        <ul>
+            <h3>Third</h3>
+        </ul>
+
+        <strong><h1>This is a definition list.</h1></strong>
+
+        <!-- Definition lists are used for going over multiple list elements, and
+        then going over particular properties of each element. The "dl" tag is used to start it,
+        "dt" to list an element, and "dd" to list the properties of the particular element. -->
+        <dl>
+            <dt>
+                <h2>
+                    HTML
+                </h2>
+            </dt>
+
+            <dd>
+                <h3>A markup language</h3>
+            </dd>
+            <dd>
+                <h3>Important for web development</h3>
+            </dd>
+
+            <dt>
+                <h2>CSS</h2>
+                <dd><h3>Language used to make website more visualy appealing.</h3></dd>
+                <dd><h3>Used for building on top of the HTML.</h3></dd>
+            </dt>
+        </dl>
     </ol>
 </body>
 </html>
