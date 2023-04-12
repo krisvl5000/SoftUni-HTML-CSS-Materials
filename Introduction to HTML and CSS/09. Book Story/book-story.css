@@ -9,3 +9,15 @@ main {
 h1 {
     text-align: center;
 }
+
+p {
+    font-size: 18px;
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
