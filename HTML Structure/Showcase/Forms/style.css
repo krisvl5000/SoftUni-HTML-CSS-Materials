@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+body {
+    background-color: lightblue;
+}
+
+input.text {
+    background-color: rgb(174, 255, 191);
+}
+
+input.number {
+    background-color: rgb(255, 78, 78);
+}
