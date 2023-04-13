@@ -18,14 +18,33 @@ of input we want the user to give us. -->
     <h1>Forms example</h1>
 
     <form action="" method="">
-        Text
-        <p><input type="text"></p>
+        <!-- Instead of paragraphs, we can use the label tag to
+        label the boxes, which goes with the form itself -->
+        <!-- On another note, if we make the for attribute of the label
+        the same with the input id, clicking onto the text
+        will enable the box and the two will be connected. -->
+
+        <label for="first-name">Input text</label>
+        <input id="first-name" class="text" type="email">
+        
+        <p><label for="password">Password</label>
+        <input id="password" class="text" type="password"></p>
         Color
         <p><input type="color"></p>
         Date
         <p><input type="date"></p>
         Number
-        <p><input type="number"></p>
+        <p><input class="number" type="number"></p>
+        Checkbox
+        <p><input type="checkbox"></p>
+        Radio
+        <p><input type="radio"></p>
+        Range
+        <p><input type="range"></p>
+        Submit
+        <p><input type="submit"></p>
+        File
+        <p><input type="file"></p>
 
     </form>
 </body>
