@@ -37,9 +37,19 @@ of input we want the user to give us. -->
         <p><input class="number" type="number"></p>
         Checkbox
         <p><input type="checkbox"></p>
-        Radio
-        <p><input type="radio"></p>
-        Range
+
+        <!-- Regarding single choice radio buttons, we can
+        make the user select only one option at a time if we
+        set the same name attribute for all options. -->
+        <p>Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="dontWantToSay">Don't want to say</label>
+        <input type="radio" id="dontWantToSay" name="gender">
+
+        <p>Range</p>
         <p><input type="range"></p>
         Submit
         <p><input type="submit"></p>
