@@ -17,6 +17,13 @@ of input we want the user to give us. -->
 
     <h1>Forms example</h1>
 
+    <!-- The actiuon attribute indicates where the information that the
+    user has entered will be sent, and the method attribute determines
+    in which way - get or post. Get is used when we need to pull the data,
+    and we can see it in the link above after it has been submitted,
+    whereas post sends the data somewhere(e.g. - database), and it cannot
+    be seen in the link. -->
+
     <form action="" method="">
         <!-- Instead of paragraphs, we can use the label tag to
         label the boxes, which goes with the form itself -->
@@ -25,7 +32,8 @@ of input we want the user to give us. -->
         will enable the box and the two will be connected. -->
 
         <label for="email">Email</label>
-        <input id="email" class="text" type="email">
+        <!-- We can make a field required by using the required attribute. -->
+        <input id="email" class="text" type="email" required>
         
         <p><label for="password">Password</label>
             <!-- The placeholder attribute lets us write a message onto
