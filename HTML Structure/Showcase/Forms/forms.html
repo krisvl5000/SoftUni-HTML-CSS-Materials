@@ -24,17 +24,22 @@ of input we want the user to give us. -->
         the same with the input id, clicking onto the text
         will enable the box and the two will be connected. -->
 
-        <label for="first-name">Input text</label>
-        <input id="first-name" class="text" type="email">
+        <label for="email">Email</label>
+        <input id="email" class="text" type="email">
         
         <p><label for="password">Password</label>
-        <input id="password" class="text" type="password"></p>
+            <!-- The placeholder attribute lets us write a message onto
+            the box itself, which can serve as an indication of
+            what sort of input is expected. -->
+        <input id="password" class="text" type="password"
+        placeholder="Type your password here"></p>
         Color
         <p><input type="color"></p>
         Date
         <p><input type="date"></p>
         Number
-        <p><input class="number" type="number"></p>
+        <!-- The value attribute lets us set a default value. -->
+        <p><input class="number" type="number" value="123"></p>
         Checkbox
         <p><input type="checkbox"></p>
 
@@ -55,8 +60,15 @@ of input we want the user to give us. -->
 
         Submit button:
         <p>
-        <button type="submit" value="Press to submit application">
+            <!-- It is better to use button when dealig with buttons
+            instead of input, because it is more specific, and is a lot
+            more customizable that input. -->
+        <button type="submit">
             Submit
+        </button>
+
+        <button type="reset">
+            Clear Info
         </button>
     </p>
         <br>
