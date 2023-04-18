@@ -1,0 +1,13 @@
+body{
+    background: rgb(211, 211, 211);
+}
+
+.button{
+    border-radius: 20px;
+    padding: 3px 5px;
+}
+
+.normal-buttons-ctr .button{
+    border-radius: 20px;
+    background: rgb(211, 211, 211);
+}
