@@ -5,10 +5,17 @@ body{
 .button{
     border-radius: 20px;
     padding: 5px 8px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .normal-buttons-ctr .button{
     background: rgb(211, 211, 211);
+}
+
+.icon-buttons-ctr .button:hover{
+    background: green;
+    border: 1px solid green;
 }
 
 .filled-buttons-ctr .button,
