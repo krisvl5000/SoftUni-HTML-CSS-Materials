@@ -13,13 +13,11 @@ span {
     font-style: oblique;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.46px;
+    line-height: 1.46;
     color: #5c5a5a;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    list-style: 1.46px;
+    line-height: 1.46;
     color: #5c5a5a;
 }
