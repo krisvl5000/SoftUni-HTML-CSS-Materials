@@ -4,3 +4,16 @@ section h1{
     color: white;
     padding: 5px;
 }
+
+body{
+    background-color: lightblue;
+}
+
+li{
+    padding: 20px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
