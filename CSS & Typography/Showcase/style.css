@@ -54,3 +54,7 @@ form div{
     color: white;
     padding: 5px;
 }
+
+input{
+    align-self: first baseline;
+}
