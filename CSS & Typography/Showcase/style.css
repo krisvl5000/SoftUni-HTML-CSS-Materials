@@ -1,14 +1,13 @@
 section h1{
-    background-color: rgb(39, 162, 202);
-    border-radius: 16px;
-    color: white;
+    color: black;
     padding: 5px;
+    text-align: center;
 }
 
 body{
     margin: 0px;
     padding: 0px;
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 
 li{
@@ -23,7 +22,7 @@ a{
 }
 
 ul{
-    background-color: lightcyan;
+    background-color: lightblue;
     color: white;
     text-align: center;
     padding: 0px;
