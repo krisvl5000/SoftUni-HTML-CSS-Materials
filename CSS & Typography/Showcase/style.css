@@ -1,6 +1,6 @@
 section h1{
     color: black;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -11,7 +11,7 @@ body{
 }
 
 li{
-    text-size-adjust: 35px;
+    font-size: 20px;
     line-height: 40px;
     padding: 20px;
     display: inline-block;
@@ -28,4 +28,13 @@ ul{
     padding: 0px;
     margin: 0px;
     list-style: none;
+}
+
+p{
+    padding: 50px;
+    font-size: 20px;
+}
+
+img{
+    width: 500px;
 }
