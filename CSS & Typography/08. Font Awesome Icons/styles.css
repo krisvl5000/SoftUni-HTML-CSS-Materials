@@ -1,0 +1,24 @@
+
+.nav-item{
+list-style-type: none;
+}
+
+.nav-item a{
+    color: red;
+}
+
+.buttons-ctr .single-button{
+    color: white;
+}
+
+.checkout{
+background-color: #83a94c;
+}
+
+.info{
+    background-color: #008ed0;
+}
+
+.delete{
+    background-color: #cc4036;
+}
