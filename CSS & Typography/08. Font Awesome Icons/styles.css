@@ -1,18 +1,22 @@
 
 .nav-item{
-list-style-type: none;
+    list-style-type: none;
+    margin: 10px;
 }
 
 .nav-item a{
     color: red;
+    text-decoration: none;
 }
 
 .buttons-ctr .single-button{
     color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 8px;
 }
 
 .checkout{
-background-color: #83a94c;
+    background-color: #83a94c;
 }
 
 .info{
@@ -21,4 +25,9 @@ background-color: #83a94c;
 
 .delete{
     background-color: #cc4036;
+}
+
+i{
+    font-size: 18px;
+    margin-right: 6px;
 }
