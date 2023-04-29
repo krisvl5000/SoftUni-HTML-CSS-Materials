@@ -1,21 +1,36 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px;
+}
+
+header { grid-area: hidden; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
+
 header, aside, main, footer{
     border-radius: 3px;
     background-color: rgb(181, 216, 255);
     padding: 5px 10px;
 }
 
-body header h1{
+header{
     display: inline-block;
     vertical-align: middle;
 }
 
-body aside ul{
+ul{
     list-style-type: none;
     margin: 0px;
     padding: 5px;
 }
 
-body aside ul a{
+a{
     display: block;
     padding: 5px 0px;
     color: rgb(86, 40, 129);
