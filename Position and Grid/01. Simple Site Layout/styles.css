@@ -19,7 +19,7 @@ header, aside, main, footer{
     padding: 5px 10px;
 }
 
-h1{
+header{
     display: inline-block;
     vertical-align: middle;
 }
