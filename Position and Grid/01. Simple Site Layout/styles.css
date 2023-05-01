@@ -19,12 +19,12 @@ header, aside, main, footer{
     padding: 5px 10px;
 }
 
-header h1{
+header{
     display: inline-block;
     vertical-align: middle;
 }
 
-aside ul{
+ul{
     list-style-type: none;
     margin: 0px;
     padding: 5px;
