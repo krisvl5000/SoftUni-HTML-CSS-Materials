@@ -22,7 +22,14 @@
     background-color: #008f7a;
 }
 
+/* With the repeat we can say how many columns we want and what size
+do we want the to be, instead of manually typing each one. */
+
+/* Regarding FR and GAP - when dealing with grid elements, it is better
+to use fr for the size instead of px or percent, because if we ever 
+want to place a gap between the elements they will be rearranged. */
 .grid-layout{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
