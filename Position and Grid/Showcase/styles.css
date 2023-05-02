@@ -31,7 +31,7 @@ want to place a gap between the elements they will be rearranged. */
 .grid-layout{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 12px;
 }
 
 /* Grid template areas */
