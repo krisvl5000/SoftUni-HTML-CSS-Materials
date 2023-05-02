@@ -46,3 +46,20 @@ want to place a gap between the elements they will be rearranged. */
     border-radius: 0.5;
     color: #fff;
 }
+
+.page-layout header{
+    grid-column: 1 / 4;
+}
+
+.page-layout aside{
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.page-layout main{
+    background-color: orange;
+    grid-column: 2 / 4;
+}
+
+
