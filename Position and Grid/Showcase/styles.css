@@ -21,3 +21,8 @@
 .grid-layout .grid-item:nth-child(6){
     background-color: #008f7a;
 }
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
