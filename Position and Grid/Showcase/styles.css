@@ -34,15 +34,15 @@ want to place a gap between the elements they will be rearranged. */
     gap: 12px;
 }
 
+.page-layout{
+    margin-top: 4rem;
+    display: grid;
+}
+
 /* Grid template areas */
 .page-layout > *{
     background-color: #0081cf;
     padding: 1rem;
     border-radius: 0.5;
     color: #fff;
-}
-
-.page-layout{
-    margin-top: 4rem;
-    display: grid;
 }
