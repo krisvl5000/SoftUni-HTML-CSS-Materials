@@ -1,23 +1,23 @@
-.grid-layout .drid-item:nth-child(1){
+.grid-layout .grid-item:nth-child(1){
     background-color: #845ec2;
 }
 
-.grid-layout .drid-item:nth-child(2){
+.grid-layout .grid-item:nth-child(2){
     background-color: #d65db1;
 }
 
-.grid-layout .drid-item:nth-child(3){
+.grid-layout .grid-item:nth-child(3){
     background-color: #ff6f91;
 }
 
-.grid-layout .drid-item:nth-child(4){
+.grid-layout .grid-item:nth-child(4){
     background-color: #ff9671;
 }
 
-.grid-layout .drid-item:nth-child(5){
+.grid-layout .grid-item:nth-child(5){
     background-color: #ffc75f;
 }
 
-.grid-layout .drid-item:nth-child(6){
+.grid-layout .grid-item:nth-child(6){
     background-color: #008f7a;
 }
