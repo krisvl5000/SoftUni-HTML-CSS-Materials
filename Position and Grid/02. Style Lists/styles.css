@@ -1,0 +1,17 @@
+section{
+    height: 50vh;
+}
+
+section:first-child{
+    background-color: lightgreen;
+}
+section:first-child img{
+    width: 300px;
+}
+
+section:last-child{
+    background-color: lightsalmon;
+}
+section:last-child img{
+    width: 300px;
+}
