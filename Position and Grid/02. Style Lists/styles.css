@@ -26,3 +26,10 @@ section .container{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+section .container .icon{
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}
