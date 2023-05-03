@@ -13,5 +13,16 @@ section:last-child{
     background-color: lightsalmon;
 }
 section:last-child img{
-    width: 300px;
+    width: 200px;
+}
+
+section{
+    position: relative;
+}
+
+section .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
