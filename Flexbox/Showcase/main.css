@@ -4,6 +4,7 @@ body{
 }
 
 ul.container{
+    margin: 3rem;
     list-style-type: none;
 }
 
