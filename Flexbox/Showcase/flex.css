@@ -1,0 +1,8 @@
+/* It is important to always have a defined container when working
+with flex, as it aimes to change the 
+way they appear within the container. */
+
+.container{
+    border: 2px dashed black;
+    display: flex;
+}
