@@ -5,6 +5,11 @@ way they appear within the container. */
 .container{
     border: 2px dashed black;
     display: flex;
+    flex-direction: row;
+
+    /* Using flex-wrap we can define how the elements behave when
+    there is not enough space for them on a single row */
+    /* flex-wrap: wrap; */
 }
 
 .container .item{
