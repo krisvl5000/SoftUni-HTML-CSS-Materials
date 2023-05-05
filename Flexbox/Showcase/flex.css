@@ -5,7 +5,10 @@ way they appear within the container. */
 .container{
     border: 2px dashed black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
 
     /* Using flex-wrap we can define how the elements behave when
     there is not enough space for them on a single row */
@@ -13,5 +16,19 @@ way they appear within the container. */
 }
 
 .container .item{
-    width: 300px;
+    width: 200px;
+}
+
+.container .item:nth-child(1){
+    height: 80px;
+}
+
+.container .item:nth-child(6){
+    border: 3px solid black;
+
+    /* Using order we can specify in what order we want the specific
+    element to be visualized. The higher the number, the further back 
+    it is going to appear, whereas if it is less than all other 
+    elements (the default is 0), it is going to be first. */
+    order: 1;
 }
