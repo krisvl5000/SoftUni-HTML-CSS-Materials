@@ -1,23 +1,52 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
 
+:root{
+    --clc-primary: #e24e2a;
+    --clc-grey: #ececec;
+    --clc-grey-dark: #3f3f3f;
+    --clc-grey-text: #5d5954;
+    --clc-grey-bg: #383838;
+    --clc-green: #1b9772;
+    --clc-green-text: #3aa483;
+    --clc-green-link: #8ec2aa;
+    --clr-white: #fff;
+}
+
 body{
     font-family: Helvetica, sans-serif;
 }
 
-ul{
-    border: 1px solid black;
-    background-color: lightgrey;
-    padding: 20px;
-    margin: 10px;
+/* Navigation */
+
+.header{
+    position: sticky;
+    z-index: 100;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-li{
-    padding: 20px;
-    margin: 10px;
+.header .logo{
     display: flex;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.header .logo .main{
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 1;
+}
+
+.header .logo .divider{
+    width: 1px;
+    height: 46px;
+    background-color: var(--clc-grey-dark);
+    display: inline-block;
+}
+
+.header .logo .sub{
+    font-size: 21px;
+    line-height: 1;
 }
