@@ -17,3 +17,20 @@
     color: var(--clr-grey);
 }
 
+@media screen and (min-width: 768px){
+
+    #clients .benefits{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    #clients .benefits .benefit{
+        padding: 48px 24px;
+    }
+
+    #clients .benefits .benefit:not(:last-child){
+        margin-bottom: unset;
+    }
+}
+
