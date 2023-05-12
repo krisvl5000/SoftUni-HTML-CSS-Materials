@@ -3,7 +3,7 @@
 @import url("clients-section.css");
 
 body{
-    background-color: var(--clr-bg);
+    background-color: var(--clr-helper-3);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
