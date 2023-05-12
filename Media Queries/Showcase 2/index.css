@@ -7,12 +7,26 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.section--full{
+/* .section--full{
 
-}
+} */
 
 .section--narrow{
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section__title{
+    max-width: 540px;
+    margin-bottom: 30px;
+    font-size: 46px;
+    color: var(--clr-black);
+}
+
+.section__title{
+    max-width: 540px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: var(--clr-grey);
 }
