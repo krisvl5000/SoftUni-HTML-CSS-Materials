@@ -1,4 +1,4 @@
-/* @import url("reset.css"); */
+@import url("reset.css");
 @import url("variables.css");
 @import url("clients-section.css");
 
@@ -11,14 +11,17 @@ body{
 
 } */
 
+.section--narrow{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 50px;
+}
+
 .section__title,
 .section__desc{
     max-width: 540px;
     text-align: center;
-}
-
-.section--narrow{
-    max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
 }
