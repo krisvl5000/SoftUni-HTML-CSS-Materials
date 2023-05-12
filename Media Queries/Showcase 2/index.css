@@ -1,0 +1,8 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("clients-section.css");
+
+body{
+    background-color: var(--clr-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
