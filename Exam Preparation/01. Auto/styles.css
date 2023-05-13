@@ -7,3 +7,12 @@
 .text{
     font-family: "Poppins", sans-serif;
 }
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+}
