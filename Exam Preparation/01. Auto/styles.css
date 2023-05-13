@@ -23,3 +23,14 @@ h5{
 .section .info{
     width: 50%;
 }
+
+.features{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.features .feature{
+    display: flex;
+    align-items: center;
+}
