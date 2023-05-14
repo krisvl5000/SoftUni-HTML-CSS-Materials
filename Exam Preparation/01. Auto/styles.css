@@ -42,7 +42,7 @@ h5{
 .features .feature{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 18px;
 }
 
 .features .feature:not(:last-child){
