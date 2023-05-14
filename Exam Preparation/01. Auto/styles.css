@@ -2,6 +2,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    color: grey;
 }
 
 h1,
@@ -10,6 +11,7 @@ h3,
 h4,
 h5{
     font-family: "Motserrat", sans-serif;
+    color: black;
 }
 
 .section{
