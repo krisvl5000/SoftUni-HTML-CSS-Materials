@@ -33,4 +33,14 @@ h5{
 .features .feature{
     display: flex;
     align-items: center;
+    gap: 16px;
+}
+
+.features .feature .feature-icon{
+    width: 100px;
+}
+
+.features .feature .feature-container .feature-title,
+.features .feature .feature-container .feature-desc{
+    margin: 0px;
 }
