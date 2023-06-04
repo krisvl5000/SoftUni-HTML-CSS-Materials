@@ -3,6 +3,7 @@ body {
     padding: -5rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 header, main, aside, footer {
@@ -16,10 +17,20 @@ header, footer {
     flex-basis: 100%;
 }
 
+header {
+    height: 100px;
+}
+
+footer {
+    height: 70px;
+}
+
 main {
     flex: 8 1 40rem;
+    height: 180px;
 }
 
 aside {
     flex: 2 1 20rem;
+
 }
