@@ -1,0 +1,31 @@
+body header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 283);
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+header {
+    order: 1;
+}
+
+main {
+    order: 2;
+}
+
+footer {
+    order: 3;
+}
+
+
