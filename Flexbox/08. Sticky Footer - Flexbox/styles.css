@@ -16,16 +16,4 @@ footer {
     background-color: rgb(102, 102, 102);
 }
 
-header {
-    order: 1;
-}
-
-main {
-    order: 2;
-}
-
-footer {
-    order: 3;
-}
-
 
