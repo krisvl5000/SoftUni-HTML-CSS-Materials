@@ -1,0 +1,16 @@
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+}
