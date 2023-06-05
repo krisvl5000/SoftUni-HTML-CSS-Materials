@@ -1,17 +1,15 @@
 header {
-    border-bottom-width: 2px;
-    border-bottom-color: rgb(0, 0, 0);
-    border-bottom-style: solid;
+    border-bottom: 2px solid rgb(0, 0, 0);
     display: flex;
 }
 
-ul {
+header nav ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-a {
+header nav ul li a {
     color: rgb(0, 153, 0);
     text-decoration: none;
     margin: 10px;
