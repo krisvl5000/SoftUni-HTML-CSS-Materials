@@ -23,3 +23,7 @@ img {
     position: absolute;
 }
 
+div.text {
+    bottom: 20px;
+}
+
