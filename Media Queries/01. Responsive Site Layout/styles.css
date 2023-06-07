@@ -36,3 +36,14 @@ aside ul li a{
     color: rgb(86, 40, 129);
     text-decoration: none;
 }
+
+@media (max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+    }
+}
