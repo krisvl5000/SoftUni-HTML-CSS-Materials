@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://fontawesome.com/icons/android?f=brands&s=solid');
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    display: inline-block;
+    position: relative;
+    right: -600px;
+    top: -70px;
+}
+
+.btn-right {
+    padding: 8px;
+    background-color: #ade2df;
+    border-radius: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    background-color: #ade2df;
+    padding: 30px;
+}
+
+.download-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.download-btns button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.download-stats ul{
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.showcase {
+    background-color: #ade2df;
+    display: flex;
+}
+
+img {
+    border: 1px dotted black;
+    margin-left: 40px;
+}
+
+.showcase button {
+    background-color: #ade2df;
+}
+
+article {
+    background-color: #ade2df;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    justify-content: center;
+    left:400px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.last {
+    text-align: center;
+    background-color: #ade2df;
+    padding: 20px 90px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 700px;
+    bottom: 40px;
+}
